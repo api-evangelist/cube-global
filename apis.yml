@@ -40,8 +40,6 @@ common:
     url: vendors/cube-global-vendors.yml
   - type: DomainSecurity
     url: security/cube-global-domain-security.yml
-  - type: Website
-    url: https://www.nasdaqprivatemarket.com/
 
 apis: []
 
@@ -53,6 +51,7 @@ x-coverage:
     - url: https://www.cube-global.com
       status: 200
   checked: '2026-10-11'
+  recheck_after: '2027-10-12'
 x-enrichment:
   date: '2026-10-11'
   status: minimal
